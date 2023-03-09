@@ -1,0 +1,12 @@
+.contenedor_padre{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+}
+.contenedor_lista{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 680px;
+    overflow: auto;
+}

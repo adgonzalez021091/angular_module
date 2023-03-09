@@ -1,0 +1,35 @@
+.contenedor_buscador{
+    padding: 30px 15px;
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 80%;
+    
+    background-color: white;
+    border-radius: 15px;
+    
+}
+textarea{
+    border-radius: 8px;
+    border: 1px solid rgb(176, 176, 176);
+    width: 90%;
+    min-height: 330px;
+    padding: 5%;
+    font-family: Montserrat;
+}
+
+.contenedor_botones{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    width: 90%;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+    
+}
+.error{
+    font-size: 10px;
+    color:red;
+}
+

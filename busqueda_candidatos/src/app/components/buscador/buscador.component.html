@@ -1,0 +1,17 @@
+<div class="contenedor_principal">
+    <div class="contenedor_buscador">
+        <form (ngSubmit)="onSearch()">
+            <h3>Ingresa a continuación la descripción de la vacante</h3>
+            <textarea [(ngModel)]="texto_busqueda" name="texto" placeholder="Copia y pega acá la descripción"></textarea>
+            <h4 class="error" *ngIf="error != ''">{{error}}</h4>
+            <div class="contenedor_botones">
+                
+                <a routerLink="">
+                    <button class="secundario">LIMPIAR</button>
+                    
+                </a>
+                <button class="principal" type="submit">BUSCAR</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="contenedor_inicial">
+  
+  <div class="barra_superior div_menu">
+    <div class="logo_aleja"><img src="assets/logo_aleja_2.png" class="logo_aleja_img"> <!----></div>
+    <div id="div_contendor_login" class="div_menu_login desktop">
+      <a href="login">
+        <button class="boton_login opcion_menu">
+          Login
+        </button>
+      </a> 
+      <a href="login?type=registro">
+        <button class="boton_login opcion_menu">
+          Registrate
+        </button>
+      </a>
+    </div> 
+    
+    <a href="/">
+      <button class="opcion_menu selected"><img type="image" src="assets/busca.png" class="opcion_img_menu">
+        Soy candidato
+      </button>
+    </a> 
+    
+    <a href="loadjobs">
+      <button class="opcion_menu "><img type="image" src="assets/load.png" class="opcion_img_menu">
+        Soy empresa
+      </button>
+    </a> 
+    <a href="loadjobs">
+      <button class="opcion_menu "><img type="image" src="assets/saved.png" class="opcion_img_menu">
+        Mis vacantes
+      </button>
+    </a> 
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  </div>

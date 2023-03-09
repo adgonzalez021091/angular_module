@@ -1,0 +1,14 @@
+.tarjeta_candidato{
+    border-radius: 12px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    width: 85%;
+    padding-bottom: 40px;
+}
+button.tarjeta{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

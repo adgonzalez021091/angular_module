@@ -1,0 +1,14 @@
+
+<div class="contenedor_padre">
+    <div >
+        <h3 *ngIf="buscando">Buscando...</h3>
+        <h3 *ngIf="candidatos.length == 0 && !buscando">No se encuentran resultados</h3>
+        <div class="contenedor_lista" *ngIf="candidatos.length > 0 && !buscando">
+            <h3>Estos los mejores resultados</h3>
+        <app-candidato *ngFor="let candidato of candidatos" [candidato]="candidato"></app-candidato>    
+    </div>
+    </div>
+    <div class="div">
+        <router-outlet ></router-outlet>
+    </div>
+</div>

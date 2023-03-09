@@ -1,0 +1,10 @@
+.contenedor_detalle{
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+}
+.iframe{
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
